@@ -23,7 +23,7 @@ h1{
     font-size: 5rem;
 }
 
-.menu{
+.nav{
     list-style: none;
     display: flex;
     flex-wrap: nowrap;
@@ -34,7 +34,7 @@ h1{
     color: var(--text_color_menu);
 }
 
-.menu_item{
+.nav_item{
     padding: 25px;
 }
 
@@ -42,4 +42,22 @@ h1{
     text-transform: uppercase;
     font-size: 2rem;
     text-align: center;
+    margin-block-start: 25px;
+}
+
+.menues{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.carta{
+    margin-inline-start: 12px;
+    margin-inline-end: 12px;
+}
+
+.comensal{
+    font-size: 1.25rem;
 }
