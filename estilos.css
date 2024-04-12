@@ -61,3 +61,19 @@ h1{
 .comensal{
     font-size: 1.25rem;
 }
+
+.direction{
+    display: grid;
+    list-style: none;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.horario{
+    text-align: center;
+}
+
+.redes{
+    display: flex;
+    list-style: none;
+    justify-content: end;
+}
