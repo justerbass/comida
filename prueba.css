@@ -1,0 +1,22 @@
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Alinea los elementos a los extremos */
+    align-items: center; /* Centra verticalmente los elementos */
+    background-color: #333; /* Color de fondo de la barra de navegación */
+    padding: 10px 20px; /* Espaciado interno */
+  }
+  
+  .nav {
+    list-style-type: none; /* Quita los puntos de la lista */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav_item {
+    margin-right: 10px; /* Espacio entre elementos de navegación */
+  }
+  
+  .nav_item:last-child {
+    margin-right: 0; /* Elimina el espacio entre el último elemento y el borde */
+  }
+  

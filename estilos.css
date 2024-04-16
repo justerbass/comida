@@ -21,6 +21,15 @@ h1{
     text-transform: uppercase;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 5rem;
+    text-align: center;
+}
+
+.navbar{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--background_color_menu);
 }
 
 .nav{
@@ -28,14 +37,16 @@ h1{
     display: flex;
     flex-wrap: nowrap;
     padding: 0;
-    justify-content: center;
-    text-transform: uppercase;
-    background-color: var(--background_color_menu);
+    text-transform: uppercase;   
     color: var(--text_color_menu);
 }
 
 .nav_item{
     padding: 25px;
+}
+
+.nav_item:last-child{
+    margin-inline-end: 0;
 }
 
 .main{
