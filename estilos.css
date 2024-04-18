@@ -17,6 +17,11 @@ body{
     color: var(--text_color);
 }
 
+a{
+    text-decoration: none;
+    color: var(--text_color_menu);
+}
+
 h1{
     text-transform: uppercase;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -37,12 +42,13 @@ h1{
     display: flex;
     flex-wrap: nowrap;
     padding: 0;
-    text-transform: uppercase;   
-    color: var(--text_color_menu);
+    text-transform: uppercase;
+    
 }
 
 .nav_item{
     padding: 25px;
+    
 }
 
 .nav_item:last-child{
@@ -57,16 +63,38 @@ h1{
 }
 
 .menues{
-    display: flex;
-    list-style: none;
-    justify-content: center;
-    text-align: center;
-    text-decoration: underline;
+    display: grid;
+    place-items: center;
 }
 
 .carta{
-    margin-inline-start: 12px;
-    margin-inline-end: 12px;
+    display: flex;
+    gap: 1rem;
+    max-width: 100rem;
+}
+
+.card_menu{
+    position: relative;
+    left: 0;
+    width: 6rem;
+    border-radius: 1.2rem;
+    height: 20rem;
+    overflow: hidden;
+    transition: 0.4s ease-in-out;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
+    flex: 0.25;
+}
+
+.card_menu img{
+    position: relative;
+    height: 20rem;
+    object-fit: cover;
+}
+
+.card_menu:hover{
+    flex: 2;
+    cursor: pointer;
+    border-radius: 1rem;
 }
 
 .comensal{
