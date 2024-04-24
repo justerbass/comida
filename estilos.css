@@ -121,3 +121,20 @@ h1{
     list-style: none;
     justify-content: end;
 }
+
+.description{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.description_us{
+    font-size: 1.25em;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    max-width: 650px;
+    text-align: center;
+    padding: 20px;
+}
