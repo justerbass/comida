@@ -5,10 +5,10 @@
 }
 
 :root{
-    --background_color: #2F4F4F;
-    --text_color: #FFFFFF;
+    --background_color: hsl(180, 25%, 25%);
+    --text_color: hsl(0, 0%, 100%);
     --background_color_menu: hsla(0, 0%, 0%, 0.8);
-    --text_color_menu: #800080;
+    --text_color_menu: hsl(300, 100%, 25%);
 
 }
 
@@ -86,7 +86,7 @@ h1{
     height: 20rem;
     overflow: hidden;
     transition: 0.4s ease-in-out;
-    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 5px 12px hsla(0, 0%, 0%, 0.3);
     flex: 0.25;
 }
 
