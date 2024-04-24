@@ -5,10 +5,10 @@
 }
 
 :root{
-    --background_color: rgb(23, 23, 23);
-    --text_color: silver;
-    --background_color_menu: black;
-    --text_color_menu: LightSalmon;
+    --background_color: #2F4F4F;
+    --text_color: #FFFFFF;
+    --background_color_menu: hsla(0, 0%, 0%, 0.8);
+    --text_color_menu: #800080;
 
 }
 
@@ -35,6 +35,9 @@ h1{
     justify-content: space-between;
     align-items: center;
     background-color: var(--background_color_menu);
+    position: sticky;
+    top: 0;
+    z-index: 2;
 }
 
 .nav{
@@ -43,12 +46,10 @@ h1{
     flex-wrap: nowrap;
     padding: 0;
     text-transform: uppercase;
-    
 }
 
 .nav_item{
-    padding: 25px;
-    
+    padding: 25px; 
 }
 
 .nav_item:last-child{
@@ -65,6 +66,10 @@ h1{
 .menues{
     display: grid;
     place-items: center;
+}
+
+.space_nav{
+    padding-block-start: 50px;
 }
 
 .carta{
