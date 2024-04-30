@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-image: url(img/lasagna.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.review{
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+.comensal{
+    font-size: 1.25rem;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    max-width: 800px;
+    text-align: justify;
+}
+
+
+.food{
+    font-size: 2rem;
+    background-image: linear-gradient(to bottom, transparent, black);
+}
+
+.menu{
+    font-size: 1em;
+    text-align: center;
+    padding: 30px;
+    text-decoration: underline;
+}
+
+.menu_time{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.menu_time_plate{
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    min-width: 300px;
+}
+
+.menu_time_plate_description{
+    font-size: .75em;
+    text-align: justify;
+    width: 500px;
+}
+
+.nav_menu{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+}
+
+.nav_menu_footer{
+    list-style: none;
+    padding: 20px;
+}
+
+.nav_menu_footer_item{
+    font-size: 1.5rem;
+}
+
+footer{
+    background-color: black;
+}
+
+/* media query */
+@media (max-width: 550px){
+    h1{
+        font-size: 2rem;
+    }
+
+    .review{
+        padding: 10px;
+    }
+
+    .nav_menu_footer{
+        padding: 10px;
+    }
+}

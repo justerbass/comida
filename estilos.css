@@ -102,10 +102,6 @@ h1{
     border-radius: 1rem;
 }
 
-.comensal{
-    font-size: 1.25rem;
-}
-
 .direction{
     display: grid;
     list-style: none;
@@ -171,7 +167,7 @@ h1{
     .card_menu img{
         height: 10rem;
     }
-    
+
     .redes{
         padding-inline-end: 10px;
     }
