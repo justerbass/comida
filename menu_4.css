@@ -17,4 +17,20 @@ body{
     .nav_menu_footer{
         padding: 10px;
     }
+
+    body{
+        background-position: 50%;
+    }
+}
+
+@media (max-width: 450px){
+    .menu_time_plate{
+        max-width: 100px;
+        font-size: 0.7em;
+    }
+
+    .menu_time_plate_description{
+        font-size: 1.25rem;
+        padding-inline-start: 5px;
+    }
 }

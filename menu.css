@@ -51,11 +51,11 @@
     font-weight: 400;
     display: flex;
     align-items: center;
-    min-width: 300px;
+    width: 300px;
 }
 
 .menu_time_plate_description{
-    font-size: .75em;
+    font-size: 0.75em;
     text-align: justify;
     width: 500px;
 }
