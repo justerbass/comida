@@ -6,12 +6,12 @@
 
 :root{
     --text_color: hsl(0, 0%, 100%);
-    --background_color_menu: hsla(0, 0%, 0%, 0.95);
+    --background_color_menu: hsla(0, 0%, 0%, 0.8);
     --text_color_menu: hsl(300, 100%, 25%);
 }
 
 body{
-    background-image: url(img/lasagna.jpeg);
+    background-image: url(img/schnitzel.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }

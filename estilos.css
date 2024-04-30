@@ -52,6 +52,10 @@ h1{
     padding: 25px; 
 }
 
+.nav_item :hover{
+    color: var(--text_color);
+}
+
 .nav_item:last-child{
     margin-inline-end: 0;
 }
