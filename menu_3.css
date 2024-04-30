@@ -1,9 +1,8 @@
 body{
-    background-image: url(img/lasagna.jpeg);
+    background-image: url(img/noodles.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 
 /* media query */
 @media (max-width: 550px){
