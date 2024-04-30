@@ -1,0 +1,20 @@
+body{
+    background-image: url(img/noodles.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* media query */
+@media (max-width: 550px){
+    h1{
+        font-size: 2rem;
+    }
+
+    .review{
+        padding: 10px;
+    }
+
+    .nav_menu_footer{
+        padding: 10px;
+    }
+}

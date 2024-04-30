@@ -52,6 +52,10 @@ h1{
     padding: 25px; 
 }
 
+.nav_item :hover{
+    color: var(--text_color);
+}
+
 .nav_item:last-child{
     margin-inline-end: 0;
 }
@@ -100,10 +104,6 @@ h1{
     flex: 2;
     cursor: pointer;
     border-radius: 1rem;
-}
-
-.comensal{
-    font-size: 1.25rem;
 }
 
 .direction{
@@ -171,7 +171,7 @@ h1{
     .card_menu img{
         height: 10rem;
     }
-    
+
     .redes{
         padding-inline-end: 10px;
     }
