@@ -7,7 +7,11 @@
 :root{
     --text_color: hsl(0, 0%, 100%);
     --background_color_menu: hsla(0, 0%, 0%, 0.95);
-    --text_color_menu: hsl(300, 100%, 25%);
+    --text_color_menu: hsl(30, 100%, 50%);
+}
+
+.recipe{
+    background-image: linear-gradient(to bottom, transparent, var(--background_color_menu));
 }
 
 .review{
@@ -29,7 +33,6 @@
 
 .food{
     font-size: 2rem;
-    background-image: linear-gradient(to bottom, transparent, var(--background_color_menu));
 }
 
 .menu{
