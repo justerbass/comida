@@ -15,7 +15,7 @@
 }
 
 .review{
-    display: flex;
+    display: grid;
     padding: 20px;
     justify-content: space-evenly;
 }
@@ -36,7 +36,7 @@
 }
 
 .menu{
-    font-size: 1em;
+    font-size: 2rem;
     text-align: center;
     padding: 30px;
     text-decoration: underline;
