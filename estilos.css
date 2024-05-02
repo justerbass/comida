@@ -123,6 +123,7 @@ h1{
     padding-inline-end: 15px;
     margin-block-end: 5px;
     gap: 10px;
+    margin-block-end: 0;
 }
 
 .description{
