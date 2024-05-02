@@ -126,6 +126,10 @@ h1{
     margin-block-end: 0;
 }
 
+footer{
+    text-align: center;
+}
+
 .description{
     display: flex;
     justify-content: space-evenly;

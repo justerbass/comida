@@ -1,0 +1,30 @@
+
+
+
+#reserva-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding-block-start: 10px;
+}
+  
+#reserva-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+  
+#reserva-form input[type="text"],
+#reserva-form input[type="email"],
+#reserva-form input[type="date"],
+#reserva-form input[type="time"],
+#reserva-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+  
+#reserva-form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}

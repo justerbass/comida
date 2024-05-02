@@ -4,15 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>reserva</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="reserva.css">
 </head>
 <body>
-    <h1>
-        aca se reservara
-        con un formulario
-        que te llevara a otra pag
-        confirmando tu reserva.
-    </h1>
+    <header>
+        <h1>volcano</h1>
+    </header>
+
+    <section class="reservas">
+        <h2>Haz tu Reserva</h2>
+        <form id="reserva-form">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="fecha">Fecha:</label>
+            <input type="date" id="fecha" name="fecha" required>
+
+            <label for="hora">Hora:</label>
+            <input type="time" id="hora" name="hora" required>
+
+            <label for="reserva"></label>
+            <input type="submit" value="Reservar">
+        </form>
+    </section>
 
     <p><a href="index.html">volver</a></p>
+
+    <footer>
+        <ul class="redes">
+            <li>
+                <p>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img src="img/icons8-instagram-30-color.png" alt="instagram">
+                    </a>
+                </p>
+                
+            </li>
+            <li>
+                <p>
+                    <a href="https://twitter.com/" target="_blank">
+                        <img src="img/icons8-twitter-30-color.png" alt="twitter">
+                    </a>
+                </p>
+                
+            </li>
+            <li>
+                <p>
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img src="img/icons8-facebook-nuevo-30-color.png" alt="facebook">
+                    </a>
+                </p>
+                
+            </li>
+        </ul>
+        <p>&copy; 2024 Volcano</p>
+    </footer>
 </body>
 </html>
