@@ -1,5 +1,14 @@
+:root{
+    --text_color: hsl(0, 0%, 100%);
+    --background_color_menu: hsla(0, 0%, 0%, 0.95);
+    --text_color_menu: hsl(30, 100%, 50%);
+}
 
-
+.reserva_title{
+    font-size: 2rem;
+    text-align: center;
+    padding: 30px;
+}
 
 #reserva-form {
     max-width: 400px;
@@ -23,8 +32,46 @@
 }
   
 #reserva-form input[type="submit"] {
-    background-color: #333;
-    color: #fff;
+    background-color: var(--background_color_menu);
+    color: var(--text_color);
     border: none;
     cursor: pointer;
+}
+
+.confirm{
+    font-size: 2rem;
+    text-align: center;
+    padding: 30px;
+}
+
+@media (max-width: 520px){
+    .confirm{
+        padding: 0px;
+    }
+}
+
+.nav_menu{
+    display: flex;
+    background-color: var(--background_color_menu);
+    justify-content: space-between;
+}
+
+.nav_menu_footer{
+    list-style: none;
+    padding: 20px;
+}
+
+.nav_menu_footer_item{
+    font-size: 1.5rem;
+}
+
+.nav_menu_footer_item :hover{
+    color: var(--text_color);
+}
+
+footer{
+    background-color: var(--background_color_menu);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }

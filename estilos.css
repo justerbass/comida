@@ -29,6 +29,17 @@ h1{
     text-align: center;
 }
 
+.background_title{
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  
+    background-image: url(img/WNlI.gif);
+  
+    background-position: right bottom;
+  
+  }
+
 .navbar{
     display: flex;
     flex-wrap: nowrap;

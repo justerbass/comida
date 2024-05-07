@@ -2,65 +2,43 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;  
+  background-color: #6d4545a8;
 }
 
-header {
-  background-color: #333;
-  color: #fff;
-  padding: 20px;
-}
-
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-nav ul li {
-  display: inline;
-  margin-right: 20px;
-}
-
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
-}
-
-section {
-  padding: 50px;
-}
-
-footer {
-  background-color: #333;
-  color: #fff;
+h1{
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 5rem;
   text-align: center;
-  padding: 20px;
 }
 
-/* Estilos para el formulario de reserva */
-#reserva-form {
-  max-width: 400px;
-  margin: 0 auto;
+.background{
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+
+  background-image: url(img/WNlI.gif);
+
+  /* animation: animar-texto 40s ease-in-out infinite; */
+
+  background-position: right bottom;
+
 }
 
-#reserva-form label {
-  display: block;
-  margin-bottom: 10px;
-}
-
-#reserva-form input[type="text"],
-#reserva-form input[type="email"],
-#reserva-form input[type="date"],
-#reserva-form input[type="time"],
-#reserva-form input[type="submit"] {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 20px;
-}
-
-#reserva-form input[type="submit"] {
-  background-color: #333;
-  color: #fff;
-  border: none;
-  cursor: pointer;
+@keyframes animar-texto {
+  0%{
+    background-position: right top;
+  }
+  /* 25%{
+    background-position: right bottom;
+   }
+  50% {
+    background-position: left bottom;
+  }
+  75% {
+    background-position: right top;
+  }    */
+  100%{
+      background-color: left bottom;
+  }
 }
