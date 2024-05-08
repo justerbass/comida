@@ -10,32 +10,31 @@
     padding: 30px;
 }
 
-#reserva-form {
+.reserva-form {
     max-width: 400px;
     margin: 0 auto;
     padding-block-start: 10px;
 }
   
-#reserva-form label {
+label {
     display: block;
     margin-bottom: 10px;
 }
   
-#reserva-form input[type="text"],
-#reserva-form input[type="email"],
-#reserva-form input[type="date"],
-#reserva-form input[type="time"],
-#reserva-form input[type="submit"] {
+.input_data_reserva {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
 }
   
-#reserva-form input[type="submit"] {
+.reseva_btn {
     background-color: var(--background_color_menu);
     color: var(--text_color);
+    width: 100%;
+    height: 40px;
     border: none;
     cursor: pointer;
+    font-size: 1.25rem;
 }
 
 .confirm{
