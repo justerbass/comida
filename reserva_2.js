@@ -2,10 +2,10 @@
 function startLoading() {
     let progressBar = document.querySelector(".progress_bar");
     let width = 0;
-    let interval = setInterval(frame, 75); 
+    const interval = setInterval(frame, 75); 
     let load = false;
-    let show_text = document.querySelector(".completion_message")
-    let hide_text = document.querySelector(".loading")
+    const show_text = document.querySelector(".completion_message")
+    const hide_text = document.querySelector(".loading")
 
     function frame() {
         if (width >= 100) {
