@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -33,11 +34,8 @@ h1{
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
-  
     background-image: url(img/WNlI.gif);
-  
     background-position: right bottom;
-  
   }
 
 .navbar{
@@ -119,13 +117,14 @@ h1{
 }
 
 .direction{
-    display: grid;
+    display: flex;
+    justify-content: space-around;
     list-style: none;
-    grid-template-columns: repeat(2, 1fr);
+    flex-wrap: nowrap;
 }
 
 .horario{
-    text-align: center;
+    text-align: start;
 }
 
 .redes{
