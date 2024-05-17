@@ -159,6 +159,14 @@ footer{
     text-align: justify;
 }
 
+dl{
+    font-size: 1.25rem;
+}
+
+dd{
+    padding-block-end: 10px;
+}
+
 
 /* media query */
 @media (max-width: 750px){
@@ -210,5 +218,11 @@ footer{
         padding: 10px;
     }
 
+    .direction{
+        flex-direction: column;
+    }
     
+    dl{
+        text-align: center;
+    }
 }
