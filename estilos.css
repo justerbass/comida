@@ -144,6 +144,7 @@ h1{
 footer{
     text-align: center;
     background-color: var(--background_color_menu);
+    padding-block-end: 5px;
 }
 
 .description{
